@@ -8,7 +8,6 @@ screen = pygame.display.set_mode((1800, 800))
 x = -300
 N = 10
 color = (230, 230, 220)
-# pygame.quit()
 screen.fill(color)
 circle(screen, (255, 100, 0), (500, 800), 200)
 circle(screen, (230, 200, 150), (500, 500), 150)
@@ -29,17 +28,6 @@ circle(screen, (0, 0, 0), (440, 460), 30, 1)
 circle(screen, (0, 0, 0), (560, 465), 10)
 circle(screen, (0, 0, 0), (440, 465), 10)
 
-
-#circle(screen, (255, 255, 0), (200, 200), 100)
-#circle(screen, (255, 0, 0), (150, 170), 20)
-#circle(screen, (255, 0, 0), (250, 170), 16)
-#circle(screen, (0, 0, 0), (150, 170), 20, 1)
-#circle(screen, (0, 0, 0), (250, 170), 16, 1)
-#circle(screen, (0, 0, 0), (150, 170), 8)
-#circle(screen, (0, 0, 0), (250, 170), 8)
-#line(screen, (0, 0, 0), (150, 240), (250, 240), 20)
-#line(screen, (0, 0, 0), (120, 120), (180, 170), 12)
-#line(screen, (0, 0, 0), (220, 170), (290, 130), 12)
 
 pygame.display.update()
 clock = pygame.time.Clock()
